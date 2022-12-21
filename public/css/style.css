@@ -1,0 +1,20 @@
+#content{
+    background: lightblue;
+    padding:10px;
+    margin:10px;
+    border: 1px black solid;
+    height: 300px;
+    width: 500px;
+    font-size: 12px;
+    font-family:Arial;
+}
+form{
+    border : 1px solid black;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+form input,form label{
+    margin: 10px;
+    text-align: center;
+}

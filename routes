@@ -1,0 +1,14 @@
+let express = require("express");
+let router = express.Router();
+
+let siteController = require("./controllers/sitecontroller");
+
+//liste des routes vers les contrôleurs
+router.get('/',siteController.home);
+router.post('/',siteController.postReservationEtape1);
+//router.get('/user',(req,res)=>res.redirect('/user/myProfil'));
+//router.get('/persons',siteController.postReservationEtape2);
+router.post('/persons',siteController.postReservationEtape2);
+
+router.get('/confirmation',siteController.confirm);
+module.exports = router;
