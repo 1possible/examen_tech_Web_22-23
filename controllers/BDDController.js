@@ -1,4 +1,4 @@
-var bdd = require("../bdD");
+//var bdd = require("../bdD");
 
 //not the time
 /*
